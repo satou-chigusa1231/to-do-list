@@ -9,7 +9,6 @@ border-bottom: black;
 border-left: white;
 border-right: white;
 border-style: dashed;
-background-image: url(../..);
 }
 
 .flexbox {
@@ -65,3 +64,11 @@ button:hover {
     opacity: 70%;
 }
 
+@media screen and (max-width:480px) {
+ 
+    /*　画面サイズ480px以下（スマホ）　*/
+    input {
+        width: 70%;
+    }
+ 
+}
