@@ -1,8 +1,8 @@
 'use strict';
 
+const Inputfield = document.getElementsByClassName('inputfield')[0];
 const Register = document.getElementsByClassName('register')[0];
 const addlist = document.getElementsByClassName('addlist')[0];
-const Inputfield = document.getElementsByClassName('inputfield')[0];
 
 const removeTask = removeButtona => {
     const targetTask = removeButtona.closest('li');
